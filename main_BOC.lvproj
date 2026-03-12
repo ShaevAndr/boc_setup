@@ -19,7 +19,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="add_to_arr.vi" Type="VI" URL="../subVI/add_to_arr.vi"/>
+		<Item Name="boc_6_dc_channels_voltmetr_measurements.vi" Type="VI" URL="../subVI/boc_6_dc_channels_voltmetr_measurements.vi"/>
 		<Item Name="main_BOC.vi" Type="VI" URL="../main_BOC.vi"/>
+		<Item Name="meas_dc_one_chanel.vi" Type="VI" URL="../subVI/meas_dc_one_chanel.vi"/>
+		<Item Name="measure_volt_dc.vi" Type="VI" URL="../subVI/measure_volt_dc.vi"/>
+		<Item Name="reset_I_settings.vi" Type="VI" URL="../../Unicorn Labview Library/SubVIs/Public/reset_I_settings.vi"/>
+		<Item Name="sest_test_I.vi" Type="VI" URL="../subVI/sest_test_I.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Bandwidth.vi" Type="VI" URL="/&lt;instrlib&gt;/PICOTEST M352XA/Public/Function/Bandwidth.vi"/>
@@ -130,6 +136,7 @@
 			<Item Name="save_in_flash.vi" Type="VI" URL="../subVI/save_in_flash.vi"/>
 			<Item Name="save_in_flash_dialog.vi" Type="VI" URL="../subVI/save_in_flash_dialog.vi"/>
 			<Item Name="scanner_init.vi" Type="VI" URL="../subVI/scanner_init.vi"/>
+			<Item Name="set_test_mod.vi" Type="VI" URL="../subVI/set_test_mod.vi"/>
 			<Item Name="states_enum.ctl" Type="VI" URL="../states_enum.ctl"/>
 			<Item Name="TableToWvf(SubVI).vi" Type="VI" URL="../subVI/TableToWvf(SubVI).vi"/>
 			<Item Name="timeout.vi" Type="VI" URL="../subVI/timeout.vi"/>
