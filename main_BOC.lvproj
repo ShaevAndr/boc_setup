@@ -120,7 +120,9 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="assembly_I_SET_command.vi" Type="VI" URL="../classes/dc_power_supply/motech-pps-1200/assembly_I_SET_command.vi"/>
+			<Item Name="assembly_result_table_freq_char.vi" Type="VI" URL="../subVI/motech_power_supply/types/assembly_result_table_freq_char.vi"/>
 			<Item Name="assembly_result_table_I_cal.vi" Type="VI" URL="../subVI/assembly_result_table_I_cal.vi"/>
+			<Item Name="assembly_result_table_volt_char.vi" Type="VI" URL="../subVI/motech_power_supply/assembly_result_table_volt_char.vi"/>
 			<Item Name="assembly_V_SET_command.vi" Type="VI" URL="../classes/dc_power_supply/motech-pps-1200/assembly_V_SET_command.vi"/>
 			<Item Name="BOC_table_DC_RMS_write.vi" Type="VI" URL="../subVI/BOC_table_DC_RMS_write.vi"/>
 			<Item Name="boc_tablo_0_measurment.vi" Type="VI" URL="../subVI/boc_tablo_0_measurment.vi"/>
@@ -157,9 +159,11 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="measure_volt_ac.vi" Type="VI" URL="../subVI/measure_volt_ac.vi"/>
 			<Item Name="motech_set_value_cluster.ctl" Type="VI" URL="../subVI/motech_power_supply/types/motech_set_value_cluster.ctl"/>
+			<Item Name="replace_array_row_by_element.vi" Type="VI" URL="../subVI/replace_array_row_by_element.vi"/>
 			<Item Name="Reset cal U(SubVI).vi" Type="VI" URL="../subVI/reset_params/Test2 Folder/SubVIs/Reset cal U(SubVI).vi"/>
 			<Item Name="reset_calibration_result_table.vi" Type="VI" URL="../subVI/reset_calibration_result_table.vi"/>
 			<Item Name="reset_devices.vi" Type="VI" URL="../subVI/reset_devices.vi"/>
+			<Item Name="reset_table_tuned_by_user.vi" Type="VI" URL="../subVI/reset_table_tuned_by_user.vi"/>
 			<Item Name="save_in_flash.vi" Type="VI" URL="../subVI/save_in_flash.vi"/>
 			<Item Name="save_in_flash_dialog.vi" Type="VI" URL="../subVI/save_in_flash_dialog.vi"/>
 			<Item Name="set_I_and_measure.vi" Type="VI" URL="../subVI/set_I_and_measure.vi"/>
