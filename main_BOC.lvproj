@@ -27,6 +27,7 @@
 		</Item>
 		<Item Name="add_to_arr.vi" Type="VI" URL="../subVI/add_to_arr.vi"/>
 		<Item Name="boc_6_dc_channels_voltmetr_measurements.vi" Type="VI" URL="../subVI/boc_6_dc_channels_voltmetr_measurements.vi"/>
+		<Item Name="compile_table.vi" Type="VI" URL="../subVI/compile_table.vi"/>
 		<Item Name="determine_positive_channel.vi" Type="VI" URL="../subVI/motech_power_supply/determine_positive_channel.vi"/>
 		<Item Name="main_BOC.vi" Type="VI" URL="../main_BOC.vi"/>
 		<Item Name="meas_dc_one_chanel.vi" Type="VI" URL="../subVI/meas_dc_one_chanel.vi"/>
@@ -124,6 +125,7 @@
 			<Item Name="assembly_result_table_I_cal.vi" Type="VI" URL="../subVI/assembly_result_table_I_cal.vi"/>
 			<Item Name="assembly_result_table_volt_char.vi" Type="VI" URL="../subVI/motech_power_supply/assembly_result_table_volt_char.vi"/>
 			<Item Name="assembly_V_SET_command.vi" Type="VI" URL="../classes/dc_power_supply/motech-pps-1200/assembly_V_SET_command.vi"/>
+			<Item Name="boc_reset_tuned_by_user_table.vi" Type="VI" URL="../subVI/boc_reset_tuned_by_user_table.vi"/>
 			<Item Name="BOC_table_DC_RMS_write.vi" Type="VI" URL="../subVI/BOC_table_DC_RMS_write.vi"/>
 			<Item Name="boc_tablo_0_measurment.vi" Type="VI" URL="../subVI/boc_tablo_0_measurment.vi"/>
 			<Item Name="BOC_type-determain.vi" Type="VI" URL="../subVI/BOC_type-determain.vi"/>
@@ -142,6 +144,7 @@
 			<Item Name="check_result_I_calibr.vi" Type="VI" URL="../subVI/check_result_I_calibr.vi"/>
 			<Item Name="Close.vi" Type="VI" URL="../../PICOTEST M352XA/Public/Close.vi"/>
 			<Item Name="connection.vi" Type="VI" URL="../subVI/connection.vi"/>
+			<Item Name="convert_voltage_to_motech.vi" Type="VI" URL="../subVI/motech_power_supply/convert_voltage_to_motech.vi"/>
 			<Item Name="create_order_array.vi" Type="VI" URL="../subVI/create_order_array.vi"/>
 			<Item Name="DC-RMS.vi" Type="VI" URL="../subVI/DC-RMS.vi"/>
 			<Item Name="device_set_timeout.vi" Type="VI" URL="../subVI/device_set_timeout.vi"/>
@@ -166,6 +169,7 @@
 			<Item Name="reset_table_tuned_by_user.vi" Type="VI" URL="../subVI/reset_table_tuned_by_user.vi"/>
 			<Item Name="save_in_flash.vi" Type="VI" URL="../subVI/save_in_flash.vi"/>
 			<Item Name="save_in_flash_dialog.vi" Type="VI" URL="../subVI/save_in_flash_dialog.vi"/>
+			<Item Name="set_dc_voltage.vi" Type="VI" URL="../subVI/set_dc_voltage.vi"/>
 			<Item Name="set_I_and_measure.vi" Type="VI" URL="../subVI/set_I_and_measure.vi"/>
 			<Item Name="set_test_mod.vi" Type="VI" URL="../subVI/set_test_mod.vi"/>
 			<Item Name="single_measurements.vi" Type="VI" URL="../subVI/single_measurements.vi"/>
