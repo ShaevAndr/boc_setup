@@ -43,6 +43,7 @@
 		<Item Name="meas_dc_one_chanel.vi" Type="VI" URL="../subVI/meas_dc_one_chanel.vi"/>
 		<Item Name="measure_volt_dc.vi" Type="VI" URL="../subVI/measure_volt_dc.vi"/>
 		<Item Name="reset_I_settings.vi" Type="VI" URL="../../Unicorn Labview Library/SubVIs/Public/reset_I_settings.vi"/>
+		<Item Name="save_in_flash.vi" Type="VI" URL="../subVI/save_in_flash.vi"/>
 		<Item Name="scaner_set_channel.vi" Type="VI" URL="../subVI/scaner_set_channel.vi"/>
 		<Item Name="sest_test_I.vi" Type="VI" URL="../subVI/sest_test_I.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -237,7 +238,6 @@
 			<Item Name="reset_calibration_result_table.vi" Type="VI" URL="../subVI/reset_calibration_result_table.vi"/>
 			<Item Name="reset_devices.vi" Type="VI" URL="../subVI/reset_devices.vi"/>
 			<Item Name="reset_table_tuned_by_user.vi" Type="VI" URL="../subVI/reset_table_tuned_by_user.vi"/>
-			<Item Name="save_in_flash.vi" Type="VI" URL="../subVI/save_in_flash.vi"/>
 			<Item Name="save_in_flash_dialog.vi" Type="VI" URL="../subVI/save_in_flash_dialog.vi"/>
 			<Item Name="set_dc_voltage.vi" Type="VI" URL="../subVI/set_dc_voltage.vi"/>
 			<Item Name="set_I_and_measure.vi" Type="VI" URL="../subVI/set_I_and_measure.vi"/>
