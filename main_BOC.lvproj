@@ -27,6 +27,9 @@
 		</Item>
 		<Item Name="report" Type="Folder">
 			<Item Name="excel" Type="Folder">
+				<Item Name="Boc6" Type="Folder">
+					<Item Name="Boc6.lvclass" Type="LVClass" URL="../classes/report/excel/boc6/Boc6.lvclass"/>
+				</Item>
 				<Item Name="Boc12" Type="Folder">
 					<Item Name="Boc12.lvclass" Type="LVClass" URL="../classes/report/excel/boc12/Boc12.lvclass"/>
 				</Item>
@@ -39,9 +42,11 @@
 		<Item Name="check_average_AC_input.vi" Type="VI" URL="../subVI/check_average_AC_input.vi"/>
 		<Item Name="compile_table.vi" Type="VI" URL="../subVI/compile_table.vi"/>
 		<Item Name="determine_positive_channel.vi" Type="VI" URL="../subVI/motech_power_supply/determine_positive_channel.vi"/>
+		<Item Name="enum_to_single.vi" Type="VI" URL="../subVI/enum_to_single.vi"/>
 		<Item Name="main_BOC.vi" Type="VI" URL="../main_BOC.vi"/>
 		<Item Name="meas_dc_one_chanel.vi" Type="VI" URL="../subVI/meas_dc_one_chanel.vi"/>
 		<Item Name="measure_volt_dc.vi" Type="VI" URL="../subVI/measure_volt_dc.vi"/>
+		<Item Name="read_analog_inputs_from_telemetry.vi" Type="VI" URL="../subVI/read_analog_inputs_from_telemetry.vi"/>
 		<Item Name="reset_I_settings.vi" Type="VI" URL="../../Unicorn Labview Library/SubVIs/Public/reset_I_settings.vi"/>
 		<Item Name="save_in_flash.vi" Type="VI" URL="../subVI/save_in_flash.vi"/>
 		<Item Name="scaner_set_channel.vi" Type="VI" URL="../subVI/scaner_set_channel.vi"/>
@@ -71,6 +76,7 @@
 				<Item Name="Trigger Source.ctl" Type="VI" URL="/&lt;instrlib&gt;/PICOTEST M352XA/Public/Controls/Trigger Source.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -193,6 +199,7 @@
 			<Item Name="assembly_result_table_I_cal.vi" Type="VI" URL="../subVI/assembly_result_table_I_cal.vi"/>
 			<Item Name="assembly_result_table_volt_char.vi" Type="VI" URL="../subVI/motech_power_supply/assembly_result_table_volt_char.vi"/>
 			<Item Name="assembly_V_SET_command.vi" Type="VI" URL="../classes/dc_power_supply/motech-pps-1200/assembly_V_SET_command.vi"/>
+			<Item Name="boc_measure_all_channels.vi" Type="VI" URL="../subVI/boc_measure_all_channels.vi"/>
 			<Item Name="boc_reset_tuned_by_user_table.vi" Type="VI" URL="../subVI/boc_reset_tuned_by_user_table.vi"/>
 			<Item Name="BOC_table_DC_RMS_write.vi" Type="VI" URL="../subVI/BOC_table_DC_RMS_write.vi"/>
 			<Item Name="boc_tablo_0_measurment.vi" Type="VI" URL="../subVI/boc_tablo_0_measurment.vi"/>
@@ -214,6 +221,7 @@
 			<Item Name="connection.vi" Type="VI" URL="../subVI/connection.vi"/>
 			<Item Name="convert_voltage_to_motech.vi" Type="VI" URL="../subVI/motech_power_supply/convert_voltage_to_motech.vi"/>
 			<Item Name="create_order_array.vi" Type="VI" URL="../subVI/create_order_array.vi"/>
+			<Item Name="create_report_file.vi" Type="VI" URL="../subVI/create_report_file.vi"/>
 			<Item Name="DC-RMS.vi" Type="VI" URL="../subVI/DC-RMS.vi"/>
 			<Item Name="device_set_timeout.vi" Type="VI" URL="../subVI/device_set_timeout.vi"/>
 			<Item Name="device_setup_tables.vi" Type="VI" URL="../subVI/device_setup_tables.vi"/>
@@ -226,11 +234,13 @@
 			<Item Name="generator_init.vi" Type="VI" URL="../subVI/generator_init.vi"/>
 			<Item Name="generator_set_values.vi" Type="VI" URL="../subVI/generator_set_values.vi"/>
 			<Item Name="indicator.vi" Type="VI" URL="../subVI/indicator.vi"/>
+			<Item Name="init_instruments.vi" Type="VI" URL="../subVI/init_instruments.vi"/>
 			<Item Name="init_measuring_devices.vi" Type="VI" URL="../subVI/init_measuring_devices.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="meas_eidi.vi" Type="VI" URL="../subVI/meas_eidi.vi"/>
 			<Item Name="measure_volt_ac.vi" Type="VI" URL="../subVI/measure_volt_ac.vi"/>
 			<Item Name="motech_set_value_cluster.ctl" Type="VI" URL="../subVI/motech_power_supply/types/motech_set_value_cluster.ctl"/>
 			<Item Name="replace_array_row_by_element.vi" Type="VI" URL="../subVI/replace_array_row_by_element.vi"/>
@@ -241,6 +251,7 @@
 			<Item Name="save_in_flash_dialog.vi" Type="VI" URL="../subVI/save_in_flash_dialog.vi"/>
 			<Item Name="set_dc_voltage.vi" Type="VI" URL="../subVI/set_dc_voltage.vi"/>
 			<Item Name="set_I_and_measure.vi" Type="VI" URL="../subVI/set_I_and_measure.vi"/>
+			<Item Name="set_report_class.vi" Type="VI" URL="../subVI/set_report_class.vi"/>
 			<Item Name="set_test_mod.vi" Type="VI" URL="../subVI/set_test_mod.vi"/>
 			<Item Name="single_measurements.vi" Type="VI" URL="../subVI/single_measurements.vi"/>
 			<Item Name="states_enum.ctl" Type="VI" URL="../states_enum.ctl"/>
